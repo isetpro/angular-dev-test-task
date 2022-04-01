@@ -1,0 +1,37 @@
+:host::ng-deep {
+	.mat-form-field-wrapper {
+		padding-bottom: 0;
+	}
+}
+
+.table {
+	width: 100%;
+}
+
+.search-bar {
+	margin-right: 10px;
+}
+
+.left-desc {
+	margin: 0;
+	margin-right: 10px;
+}
+
+.form {
+	margin: 10px 0;
+	flex-direction: column;
+	@media screen and (min-width: 767px) {
+		flex-direction: row;
+	}
+	button {
+		margin: 0 10px;
+		flex: 1 0 auto;
+	}
+
+	.mat-form-field {
+		margin-bottom: 10px;
+		@media screen and (min-width: 767px) {
+			margin-bottom: 0;
+		}
+	}
+}
